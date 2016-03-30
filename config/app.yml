@@ -1,0 +1,9 @@
+core:
+  log:
+    level: debug
+  debug: true
+  container:
+    name: "Glim"
+    author: "Corné Oppelaar <hello@eaterofco.de>"
+  services:
+    die: Eater\Glim\Service\Dice

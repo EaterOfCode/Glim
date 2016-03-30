@@ -1,0 +1,13 @@
+propel:
+    paths:
+        schemaDir: config
+        phpDir: src/Model
+    database:
+        connections:
+            default:
+                adapter: sqlite
+                dsn: sqlite:
+                user: zerooo
+                password: IMakeHoles
+                settings:
+                    charset: utf8

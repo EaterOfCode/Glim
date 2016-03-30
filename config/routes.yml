@@ -1,0 +1,5 @@
+prefix: Eater\Glim\Handler\
+routes:
+  /: Home
+  /complicated:
+    get: Home
